@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Camera Preview -->
+    <androidx.camera.view.PreviewView
+        android:id="@+id/viewFinder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter" />
+
+    <!-- Capture Button -->
+    <Button
+        android:id="@+id/captureButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/capture_button_bg"
+        android:backgroundTint="@null"
+        android:text=""
+        android:elevation="8dp" />
+
+    <!-- FPS Counter -->
+    <TextView
+        android:id="@+id/fpsCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FPS: 0"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="16sp"
+        android:background="#80000000"
+        android:padding="4dp"
+        android:layout_gravity="top|end"
+        android:layout_margin="16dp" />
+
+</FrameLayout>
