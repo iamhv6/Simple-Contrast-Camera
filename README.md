@@ -1,3 +1,3 @@
   ## 🔨 Debug APK (Android)
 
-[Download Here](https://drive.google.com/drive/folders/1HScqcBRNKhT9Og5nuKK4abhH0mvGKulh)
+[Download Here](https://drive.google.com/file/d/1Tm5eYDyOzCSy5b_PQCjYifePp5EfAy-H/view?usp=sharing)
